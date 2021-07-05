@@ -1,0 +1,18 @@
+.top{
+    height: 90px;
+    width: 100%;
+    background-color: #fffffc;
+    box-shadow: 3px 5px 15px rgba(128, 135, 148, 0.562);
+  } 
+
+  @media screen and (max-width: 800px) {
+    .top{
+      height: 70px;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .top{
+      height: 55px;
+    }
+  }

@@ -1,0 +1,28 @@
+.development{
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        padding: 12px 22px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items:flex-end;
+}
+
+h1{
+    font-size: 18px;
+    color: darkslategrey;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    h1{
+        font-size: 10px;
+    }
+}
